@@ -1,0 +1,1 @@
+ D:/shangyizhou/code/opengl/learn_opengl/lib/libglfw3.a D:/shangyizhou/code/opengl/learn_opengl/lib/libglad.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

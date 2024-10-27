@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/shangyizhou/code/opengl/learn_opengl/build/src/01",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/01.dir/includes_CXX.rsp  -Wall -Wextra -g -g -std=gnu++1z -o CMakeFiles\\01.dir\\main.cc.obj -c D:\\shangyizhou\\code\\opengl\\learn_opengl\\src\\01\\main.cc",
+  "file": "D:/shangyizhou/code/opengl/learn_opengl/src/01/main.cc",
+  "output": "src/01/CMakeFiles/01.dir/main.cc.obj"
+}
+]
