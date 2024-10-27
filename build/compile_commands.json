@@ -1,8 +1,32 @@
 [
 {
-  "directory": "D:/shangyizhou/code/opengl/learn_opengl/build/src/01",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/01.dir/includes_CXX.rsp  -Wall -Wextra -g -g -std=gnu++1z -o CMakeFiles\\01.dir\\main.cc.obj -c D:\\shangyizhou\\code\\opengl\\learn_opengl\\src\\01\\main.cc",
-  "file": "D:/shangyizhou/code/opengl/learn_opengl/src/01/main.cc",
-  "output": "src/01/CMakeFiles/01.dir/main.cc.obj"
+  "directory": "D:/shangyizhou/code/opengl/learn_opengl/build/src/01_Hello_Window",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/01_Hello_Window.dir/includes_CXX.rsp  -Wall -Wextra -g -g -std=gnu++1z -o CMakeFiles\\01_Hello_Window.dir\\main.cc.obj -c D:\\shangyizhou\\code\\opengl\\learn_opengl\\src\\01_Hello_Window\\main.cc",
+  "file": "D:/shangyizhou/code/opengl/learn_opengl/src/01_Hello_Window/main.cc",
+  "output": "src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir/main.cc.obj"
+},
+{
+  "directory": "D:/shangyizhou/code/opengl/learn_opengl/build/src/02_Hello_Triangle",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/02_Hello_Triangle.dir/includes_CXX.rsp  -Wall -Wextra -g -g -std=gnu++1z -o CMakeFiles\\02_Hello_Triangle.dir\\main.cc.obj -c D:\\shangyizhou\\code\\opengl\\learn_opengl\\src\\02_Hello_Triangle\\main.cc",
+  "file": "D:/shangyizhou/code/opengl/learn_opengl/src/02_Hello_Triangle/main.cc",
+  "output": "src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir/main.cc.obj"
+},
+{
+  "directory": "D:/shangyizhou/code/opengl/learn_opengl/build/src/03_Shaders",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/03_Shaders.dir/includes_CXX.rsp  -Wall -Wextra -g -g -std=gnu++1z -o CMakeFiles\\03_Shaders.dir\\main.cc.obj -c D:\\shangyizhou\\code\\opengl\\learn_opengl\\src\\03_Shaders\\main.cc",
+  "file": "D:/shangyizhou/code/opengl/learn_opengl/src/03_Shaders/main.cc",
+  "output": "src/03_Shaders/CMakeFiles/03_Shaders.dir/main.cc.obj"
+},
+{
+  "directory": "D:/shangyizhou/code/opengl/learn_opengl/build/src/pratice",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/pratice.dir/includes_CXX.rsp  -Wall -Wextra -g -g -std=gnu++1z -o CMakeFiles\\pratice.dir\\src\\main.cc.obj -c D:\\shangyizhou\\code\\opengl\\learn_opengl\\src\\pratice\\src\\main.cc",
+  "file": "D:/shangyizhou/code/opengl/learn_opengl/src/pratice/src/main.cc",
+  "output": "src/pratice/CMakeFiles/pratice.dir/src/main.cc.obj"
+},
+{
+  "directory": "D:/shangyizhou/code/opengl/learn_opengl/build/src/pratice",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/pratice.dir/includes_CXX.rsp  -Wall -Wextra -g -g -std=gnu++1z -o CMakeFiles\\pratice.dir\\src\\shader_proxy.cc.obj -c D:\\shangyizhou\\code\\opengl\\learn_opengl\\src\\pratice\\src\\shader_proxy.cc",
+  "file": "D:/shangyizhou/code/opengl/learn_opengl/src/pratice/src/shader_proxy.cc",
+  "output": "src/pratice/CMakeFiles/pratice.dir/src/shader_proxy.cc.obj"
 }
 ]

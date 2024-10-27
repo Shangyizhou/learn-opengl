@@ -34,7 +34,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.30.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.4/CMakeRCCompiler.cmake"
   "CMakeFiles/3.30.4/CMakeSystem.cmake"
-  "D:/shangyizhou/code/opengl/learn_opengl/src/01/CMakeLists.txt"
+  "D:/shangyizhou/code/opengl/learn_opengl/src/01_Hello_Window/CMakeLists.txt"
+  "D:/shangyizhou/code/opengl/learn_opengl/src/02_Hello_Triangle/CMakeLists.txt"
+  "D:/shangyizhou/code/opengl/learn_opengl/src/03_Shaders/CMakeLists.txt"
+  "D:/shangyizhou/code/opengl/learn_opengl/src/pratice/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -46,10 +49,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/01/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/01_Hello_Window/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/02_Hello_Triangle/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/03_Shaders/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/pratice/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "src/01/CMakeFiles/01.dir/DependInfo.cmake"
+  "src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir/DependInfo.cmake"
+  "src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir/DependInfo.cmake"
+  "src/03_Shaders/CMakeFiles/03_Shaders.dir/DependInfo.cmake"
+  "src/pratice/CMakeFiles/pratice.dir/DependInfo.cmake"
   )

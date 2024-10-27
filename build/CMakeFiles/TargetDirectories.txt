@@ -1,5 +1,14 @@
 D:/shangyizhou/code/opengl/learn_opengl/build/CMakeFiles/edit_cache.dir
 D:/shangyizhou/code/opengl/learn_opengl/build/CMakeFiles/rebuild_cache.dir
-D:/shangyizhou/code/opengl/learn_opengl/build/src/01/CMakeFiles/01.dir
-D:/shangyizhou/code/opengl/learn_opengl/build/src/01/CMakeFiles/edit_cache.dir
-D:/shangyizhou/code/opengl/learn_opengl/build/src/01/CMakeFiles/rebuild_cache.dir
+D:/shangyizhou/code/opengl/learn_opengl/build/src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir
+D:/shangyizhou/code/opengl/learn_opengl/build/src/01_Hello_Window/CMakeFiles/edit_cache.dir
+D:/shangyizhou/code/opengl/learn_opengl/build/src/01_Hello_Window/CMakeFiles/rebuild_cache.dir
+D:/shangyizhou/code/opengl/learn_opengl/build/src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir
+D:/shangyizhou/code/opengl/learn_opengl/build/src/02_Hello_Triangle/CMakeFiles/edit_cache.dir
+D:/shangyizhou/code/opengl/learn_opengl/build/src/02_Hello_Triangle/CMakeFiles/rebuild_cache.dir
+D:/shangyizhou/code/opengl/learn_opengl/build/src/03_Shaders/CMakeFiles/03_Shaders.dir
+D:/shangyizhou/code/opengl/learn_opengl/build/src/03_Shaders/CMakeFiles/edit_cache.dir
+D:/shangyizhou/code/opengl/learn_opengl/build/src/03_Shaders/CMakeFiles/rebuild_cache.dir
+D:/shangyizhou/code/opengl/learn_opengl/build/src/pratice/CMakeFiles/pratice.dir
+D:/shangyizhou/code/opengl/learn_opengl/build/src/pratice/CMakeFiles/edit_cache.dir
+D:/shangyizhou/code/opengl/learn_opengl/build/src/pratice/CMakeFiles/rebuild_cache.dir

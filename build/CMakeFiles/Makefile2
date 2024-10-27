@@ -62,57 +62,189 @@ CMAKE_BINARY_DIR = D:\shangyizhou\code\opengl\learn_opengl\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: src/01/all
+all: src/01_Hello_Window/all
+all: src/02_Hello_Triangle/all
+all: src/03_Shaders/all
+all: src/pratice/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: src/01/preinstall
+preinstall: src/01_Hello_Window/preinstall
+preinstall: src/02_Hello_Triangle/preinstall
+preinstall: src/03_Shaders/preinstall
+preinstall: src/pratice/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: src/01/clean
+clean: src/01_Hello_Window/clean
+clean: src/02_Hello_Triangle/clean
+clean: src/03_Shaders/clean
+clean: src/pratice/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory src/01
+# Directory level rules for directory src/01_Hello_Window
 
 # Recursive "all" directory target.
-src/01/all: src/01/CMakeFiles/01.dir/all
-.PHONY : src/01/all
+src/01_Hello_Window/all: src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir/all
+.PHONY : src/01_Hello_Window/all
 
 # Recursive "preinstall" directory target.
-src/01/preinstall:
-.PHONY : src/01/preinstall
+src/01_Hello_Window/preinstall:
+.PHONY : src/01_Hello_Window/preinstall
 
 # Recursive "clean" directory target.
-src/01/clean: src/01/CMakeFiles/01.dir/clean
-.PHONY : src/01/clean
+src/01_Hello_Window/clean: src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir/clean
+.PHONY : src/01_Hello_Window/clean
 
 #=============================================================================
-# Target rules for target src/01/CMakeFiles/01.dir
+# Directory level rules for directory src/02_Hello_Triangle
+
+# Recursive "all" directory target.
+src/02_Hello_Triangle/all: src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir/all
+.PHONY : src/02_Hello_Triangle/all
+
+# Recursive "preinstall" directory target.
+src/02_Hello_Triangle/preinstall:
+.PHONY : src/02_Hello_Triangle/preinstall
+
+# Recursive "clean" directory target.
+src/02_Hello_Triangle/clean: src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir/clean
+.PHONY : src/02_Hello_Triangle/clean
+
+#=============================================================================
+# Directory level rules for directory src/03_Shaders
+
+# Recursive "all" directory target.
+src/03_Shaders/all: src/03_Shaders/CMakeFiles/03_Shaders.dir/all
+.PHONY : src/03_Shaders/all
+
+# Recursive "preinstall" directory target.
+src/03_Shaders/preinstall:
+.PHONY : src/03_Shaders/preinstall
+
+# Recursive "clean" directory target.
+src/03_Shaders/clean: src/03_Shaders/CMakeFiles/03_Shaders.dir/clean
+.PHONY : src/03_Shaders/clean
+
+#=============================================================================
+# Directory level rules for directory src/pratice
+
+# Recursive "all" directory target.
+src/pratice/all: src/pratice/CMakeFiles/pratice.dir/all
+.PHONY : src/pratice/all
+
+# Recursive "preinstall" directory target.
+src/pratice/preinstall:
+.PHONY : src/pratice/preinstall
+
+# Recursive "clean" directory target.
+src/pratice/clean: src/pratice/CMakeFiles/pratice.dir/clean
+.PHONY : src/pratice/clean
+
+#=============================================================================
+# Target rules for target src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir
 
 # All Build rule for target.
-src/01/CMakeFiles/01.dir/all:
-	$(MAKE) $(MAKESILENT) -f src\01\CMakeFiles\01.dir\build.make src/01/CMakeFiles/01.dir/depend
-	$(MAKE) $(MAKESILENT) -f src\01\CMakeFiles\01.dir\build.make src/01/CMakeFiles/01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\shangyizhou\code\opengl\learn_opengl\build\CMakeFiles --progress-num=1,2 "Built target 01"
-.PHONY : src/01/CMakeFiles/01.dir/all
+src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\01_Hello_Window\CMakeFiles\01_Hello_Window.dir\build.make src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\01_Hello_Window\CMakeFiles\01_Hello_Window.dir\build.make src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\shangyizhou\code\opengl\learn_opengl\build\CMakeFiles --progress-num=1,2 "Built target 01_Hello_Window"
+.PHONY : src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir/all
 
 # Build rule for subdir invocation for target.
-src/01/CMakeFiles/01.dir/rule: cmake_check_build_system
+src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\shangyizhou\code\opengl\learn_opengl\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/01/CMakeFiles/01.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\shangyizhou\code\opengl\learn_opengl\build\CMakeFiles 0
-.PHONY : src/01/CMakeFiles/01.dir/rule
+.PHONY : src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir/rule
 
 # Convenience name for target.
-01: src/01/CMakeFiles/01.dir/rule
-.PHONY : 01
+01_Hello_Window: src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir/rule
+.PHONY : 01_Hello_Window
 
 # clean rule for target.
-src/01/CMakeFiles/01.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src\01\CMakeFiles\01.dir\build.make src/01/CMakeFiles/01.dir/clean
-.PHONY : src/01/CMakeFiles/01.dir/clean
+src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\01_Hello_Window\CMakeFiles\01_Hello_Window.dir\build.make src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir/clean
+.PHONY : src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir/clean
+
+#=============================================================================
+# Target rules for target src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir
+
+# All Build rule for target.
+src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\02_Hello_Triangle\CMakeFiles\02_Hello_Triangle.dir\build.make src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\02_Hello_Triangle\CMakeFiles\02_Hello_Triangle.dir\build.make src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\shangyizhou\code\opengl\learn_opengl\build\CMakeFiles --progress-num=3,4 "Built target 02_Hello_Triangle"
+.PHONY : src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir/all
+
+# Build rule for subdir invocation for target.
+src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\shangyizhou\code\opengl\learn_opengl\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\shangyizhou\code\opengl\learn_opengl\build\CMakeFiles 0
+.PHONY : src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir/rule
+
+# Convenience name for target.
+02_Hello_Triangle: src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir/rule
+.PHONY : 02_Hello_Triangle
+
+# clean rule for target.
+src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\02_Hello_Triangle\CMakeFiles\02_Hello_Triangle.dir\build.make src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir/clean
+.PHONY : src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir/clean
+
+#=============================================================================
+# Target rules for target src/03_Shaders/CMakeFiles/03_Shaders.dir
+
+# All Build rule for target.
+src/03_Shaders/CMakeFiles/03_Shaders.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\03_Shaders\CMakeFiles\03_Shaders.dir\build.make src/03_Shaders/CMakeFiles/03_Shaders.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\03_Shaders\CMakeFiles\03_Shaders.dir\build.make src/03_Shaders/CMakeFiles/03_Shaders.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\shangyizhou\code\opengl\learn_opengl\build\CMakeFiles --progress-num=5,6 "Built target 03_Shaders"
+.PHONY : src/03_Shaders/CMakeFiles/03_Shaders.dir/all
+
+# Build rule for subdir invocation for target.
+src/03_Shaders/CMakeFiles/03_Shaders.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\shangyizhou\code\opengl\learn_opengl\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/03_Shaders/CMakeFiles/03_Shaders.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\shangyizhou\code\opengl\learn_opengl\build\CMakeFiles 0
+.PHONY : src/03_Shaders/CMakeFiles/03_Shaders.dir/rule
+
+# Convenience name for target.
+03_Shaders: src/03_Shaders/CMakeFiles/03_Shaders.dir/rule
+.PHONY : 03_Shaders
+
+# clean rule for target.
+src/03_Shaders/CMakeFiles/03_Shaders.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\03_Shaders\CMakeFiles\03_Shaders.dir\build.make src/03_Shaders/CMakeFiles/03_Shaders.dir/clean
+.PHONY : src/03_Shaders/CMakeFiles/03_Shaders.dir/clean
+
+#=============================================================================
+# Target rules for target src/pratice/CMakeFiles/pratice.dir
+
+# All Build rule for target.
+src/pratice/CMakeFiles/pratice.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\pratice\CMakeFiles\pratice.dir\build.make src/pratice/CMakeFiles/pratice.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\pratice\CMakeFiles\pratice.dir\build.make src/pratice/CMakeFiles/pratice.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\shangyizhou\code\opengl\learn_opengl\build\CMakeFiles --progress-num=7,8,9 "Built target pratice"
+.PHONY : src/pratice/CMakeFiles/pratice.dir/all
+
+# Build rule for subdir invocation for target.
+src/pratice/CMakeFiles/pratice.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\shangyizhou\code\opengl\learn_opengl\build\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/pratice/CMakeFiles/pratice.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\shangyizhou\code\opengl\learn_opengl\build\CMakeFiles 0
+.PHONY : src/pratice/CMakeFiles/pratice.dir/rule
+
+# Convenience name for target.
+pratice: src/pratice/CMakeFiles/pratice.dir/rule
+.PHONY : pratice
+
+# clean rule for target.
+src/pratice/CMakeFiles/pratice.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\pratice\CMakeFiles\pratice.dir\build.make src/pratice/CMakeFiles/pratice.dir/clean
+.PHONY : src/pratice/CMakeFiles/pratice.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

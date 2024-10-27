@@ -20,4 +20,7 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # Add the executable
-add_subdirectory(src/01)
+add_subdirectory(src/01_Hello_Window)
+add_subdirectory(src/02_Hello_Triangle)
+add_subdirectory(src/03_Shaders)
+add_subdirectory(src/pratice)

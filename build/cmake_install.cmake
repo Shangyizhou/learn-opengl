@@ -39,7 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/shangyizhou/code/opengl/learn_opengl/build/src/01/cmake_install.cmake")
+  include("D:/shangyizhou/code/opengl/learn_opengl/build/src/01_Hello_Window/cmake_install.cmake")
+  include("D:/shangyizhou/code/opengl/learn_opengl/build/src/02_Hello_Triangle/cmake_install.cmake")
+  include("D:/shangyizhou/code/opengl/learn_opengl/build/src/03_Shaders/cmake_install.cmake")
+  include("D:/shangyizhou/code/opengl/learn_opengl/build/src/pratice/cmake_install.cmake")
 
 endif()
 

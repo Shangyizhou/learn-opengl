@@ -116,17 +116,56 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 01
+# Target rules for targets named 01_Hello_Window
 
 # Build rule for target.
-01: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01
-.PHONY : 01
+01_Hello_Window: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_Hello_Window
+.PHONY : 01_Hello_Window
 
 # fast build rule for target.
-01/fast:
-	$(MAKE) $(MAKESILENT) -f src\01\CMakeFiles\01.dir\build.make src/01/CMakeFiles/01.dir/build
-.PHONY : 01/fast
+01_Hello_Window/fast:
+	$(MAKE) $(MAKESILENT) -f src\01_Hello_Window\CMakeFiles\01_Hello_Window.dir\build.make src/01_Hello_Window/CMakeFiles/01_Hello_Window.dir/build
+.PHONY : 01_Hello_Window/fast
+
+#=============================================================================
+# Target rules for targets named 02_Hello_Triangle
+
+# Build rule for target.
+02_Hello_Triangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02_Hello_Triangle
+.PHONY : 02_Hello_Triangle
+
+# fast build rule for target.
+02_Hello_Triangle/fast:
+	$(MAKE) $(MAKESILENT) -f src\02_Hello_Triangle\CMakeFiles\02_Hello_Triangle.dir\build.make src/02_Hello_Triangle/CMakeFiles/02_Hello_Triangle.dir/build
+.PHONY : 02_Hello_Triangle/fast
+
+#=============================================================================
+# Target rules for targets named 03_Shaders
+
+# Build rule for target.
+03_Shaders: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 03_Shaders
+.PHONY : 03_Shaders
+
+# fast build rule for target.
+03_Shaders/fast:
+	$(MAKE) $(MAKESILENT) -f src\03_Shaders\CMakeFiles\03_Shaders.dir\build.make src/03_Shaders/CMakeFiles/03_Shaders.dir/build
+.PHONY : 03_Shaders/fast
+
+#=============================================================================
+# Target rules for targets named pratice
+
+# Build rule for target.
+pratice: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pratice
+.PHONY : pratice
+
+# fast build rule for target.
+pratice/fast:
+	$(MAKE) $(MAKESILENT) -f src\pratice\CMakeFiles\pratice.dir\build.make src/pratice/CMakeFiles/pratice.dir/build
+.PHONY : pratice/fast
 
 # Help Target
 help:
@@ -136,7 +175,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 01
+	@echo ... 01_Hello_Window
+	@echo ... 02_Hello_Triangle
+	@echo ... 03_Shaders
+	@echo ... pratice
 .PHONY : help
 
 
