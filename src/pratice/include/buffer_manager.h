@@ -10,7 +10,7 @@ struct BufferManager {
     // 如果不传入 size_t size
     // 直接对 vertices 进行 sizeof 计算得到的是指针的大小而不是真实数组的大小
     BufferManager(float vertices[], size_t size) {
-         unsigned int VBO, VAO;
+        unsigned int VBO, VAO;
         glGenVertexArrays(1, &VAO);
         glGenBuffers(1, &VBO);
         
