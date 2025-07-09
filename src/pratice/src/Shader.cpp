@@ -3,8 +3,25 @@
 #include "Shader.h"
 #include <glm/gtc/type_ptr.hpp>
 #include <iostream>
+#include <fstream>
+#include <sstream>
 
-Shader::Shader(const char* vertexSrc, const char* fragmentSrc) {
+std::string Shader::loadFile(const std::string& path) {
+    std::ifstream file(path);
+    if (!file.is_open()) {
+        std::cerr << "Failed to open shader file: " << path << std::endl;
+        return "";
+    }
+    std::stringstream buffer;
+    buffer << file.rdbuf();
+    return buffer.str();
+}
+
+Shader::Shader(const std::string& vertexPath, const std::string& fragmentPath) {
+    std::string vertexCode = loadFile(vertexPath);
+    std::string fragmentCode = loadFile(fragmentPath);
+    const char* vertexSrc = vertexCode.c_str();
+    const char* fragmentSrc = fragmentCode.c_str();
     GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);
     glShaderSource(vertexShader, 1, &vertexSrc, nullptr);
     glCompileShader(vertexShader);
@@ -15,7 +32,6 @@ Shader::Shader(const char* vertexSrc, const char* fragmentSrc) {
         glGetShaderInfoLog(vertexShader, 512, nullptr, infoLog);
         std::cerr << "ERROR::SHADER::VERTEX::COMPILATION_FAILED\n" << infoLog << std::endl;
     }
-
     GLuint fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
     glShaderSource(fragmentShader, 1, &fragmentSrc, nullptr);
     glCompileShader(fragmentShader);
@@ -24,7 +40,6 @@ Shader::Shader(const char* vertexSrc, const char* fragmentSrc) {
         glGetShaderInfoLog(fragmentShader, 512, nullptr, infoLog);
         std::cerr << "ERROR::SHADER::FRAGMENT::COMPILATION_FAILED\n" << infoLog << std::endl;
     }
-
     programID = glCreateProgram();
     glAttachShader(programID, vertexShader);
     glAttachShader(programID, fragmentShader);

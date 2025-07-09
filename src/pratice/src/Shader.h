@@ -1,12 +1,11 @@
-#ifndef SHADER_H
-#define SHADER_H
-
+#pragma once
 #include <string>
 #include <glad/glad.h>
 #include <glm/glm.hpp>
+
 class Shader {
 public:
-    Shader(const char* vertexSrc, const char* fragmentSrc);
+    Shader(const std::string& vertexPath, const std::string& fragmentPath);
     ~Shader();
     void use() const;
     void setInt(const std::string& name, int value) const;
@@ -16,6 +15,5 @@ public:
     GLuint ID() const;
 private:
     GLuint programID;
-};
-
-#endif // SHADER_H 
+    static std::string loadFile(const std::string& path);
+}; 
