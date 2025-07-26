@@ -49,10 +49,13 @@ void Camera::processMouseScroll(float yoffset) {
 }
 
 void Camera::updateCameraVectors() {
+    // yaw和pitch分别是水平和垂直的旋转角度（单位：度）
+    // 通过三角函数将球坐标(yaw, pitch, 半径1)转换为笛卡尔坐标(front向量)
+    // yaw控制左右，pitch控制上下
     glm::vec3 f;
-    f.x = cos(glm::radians(yaw)) * cos(glm::radians(pitch));
-    f.y = sin(glm::radians(pitch));
-    f.z = sin(glm::radians(yaw)) * cos(glm::radians(pitch));
+    f.x = cos(glm::radians(yaw)) * cos(glm::radians(pitch)); // 前方在x轴的分量
+    f.y = sin(glm::radians(pitch));                          // 前方在y轴的分量
+    f.z = sin(glm::radians(yaw)) * cos(glm::radians(pitch)); // 前方在z轴的分量
     front = glm::normalize(f);
     right = glm::normalize(glm::cross(front, worldUp));
     up    = glm::normalize(glm::cross(right, front));

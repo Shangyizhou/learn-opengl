@@ -71,6 +71,7 @@ class Mesh {
 public:
     Mesh(const std::vector<Vertex>& vertices, const std::vector<uint32_t>& indices);
     void draw() const;
+    void drawLines() const;  // 新增线框绘制方法
     static VertexLayout getLayout();
 private:
     VertexArray vao;

@@ -55,6 +55,11 @@ void Mesh::draw() const {
     vao.bind();
     glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(indexCount), GL_UNSIGNED_INT, 0);
 }
+
+void Mesh::drawLines() const {
+    vao.bind();
+    glDrawElements(GL_LINES, static_cast<GLsizei>(indexCount), GL_UNSIGNED_INT, 0);
+}
 VertexLayout Mesh::getLayout() {
     return VertexLayout{
         {
